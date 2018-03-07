@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <servlet-name>userLoginer</servlet-name>
+    <servlet-class>com.servlet.sql.userLoginer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userLoginer</servlet-name>
+    <url-pattern>/bigdata/userLoginer</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>userExit</servlet-name>
+    <servlet-class>com.servlet.sql.userExit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userExit</servlet-name>
+    <url-pattern>/bigdata/userExit</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>userManager</servlet-name>
+    <servlet-class>com.servlet.sql.userManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userManager</servlet-name>
+    <url-pattern>/bigdata/userManager</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>movefirst</servlet-name>
+    <servlet-class>com.servlet.sql.movefirst</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>movefirst</servlet-name>
+    <url-pattern>/bigdata/movefirst</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>movepersonal</servlet-name>
+    <servlet-class>com.servlet.sql.movepersonal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>movepersonal</servlet-name>
+    <url-pattern>/bigdata/movepersonal</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>addsuggest</servlet-name>
+    <servlet-class>com.servlet.sql.addsuggest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addsuggest</servlet-name>
+    <url-pattern>/bigdata/addsuggest</url-pattern>
+  </servlet-mapping>
+  
+  <session-config>
+    <session-timeout>180</session-timeout>
+  </session-config>
+</web-app>

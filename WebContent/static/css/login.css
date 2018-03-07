@@ -1,0 +1,77 @@
+body{
+	background-color: #0e90d2 !important;
+}
+.login-continer{
+	width:350px;
+	margin-left: 50%;
+	position: absolute;
+	top:50%;
+}
+.login-bg-color{
+	width:350px;
+	height: 420px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	margin-top: -210px;
+	margin-left: -175px;
+	font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #666666;
+    line-height: normal;
+}
+.login-user{
+	width:300px;
+	height: 100%;
+	margin: 0 auto;
+}
+.login-info{
+	color: #FFFFFF;
+	font-family: 'FontAwesome';
+    background-color: rgba(0, 0, 0, 0.498039215686275);
+    line-height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*display: none;*/
+}
+.logo-hy{
+	width:120px;
+	margin: 0 auto;
+}
+.logo-hy img{
+	width:100%;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.login-frame{
+	width:100%;
+	height: 52px;
+	border:1px solid #eaeae5;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.input-group-addon {
+    background-color: #fff !important; 
+    border: 0 !important;
+    padding: 6px 0px 6px 12px !important;
+}
+.form-control {
+    color: #555; 
+    padding: 24px 12px !important;
+    border: none !important;
+    -webkit-box-shadow: none !important; 
+}
+.login-login-button{
+	background-color: #0e90d2;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	font-family: 'MicrosoftYaHei', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+	color:#fff;
+}
